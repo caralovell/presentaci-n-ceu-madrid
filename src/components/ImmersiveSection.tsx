@@ -5,10 +5,10 @@ import aroma from "@/assets/immersive-aroma.jpg";
 import hologram from "@/assets/immersive-hologram.jpg";
 
 const items = [
-  { title: "Robótica", img: robotics },
   { title: "Realidad Virtual", img: vr },
-  { title: "Mkt Sensorial", img: aroma },
   { title: "Hologramas", img: hologram },
+  { title: "Mkt Sensorial", img: aroma },
+  { title: "Robótica", img: robotics },
 ];
 
 const duplicatedItems = [...items, ...items];
