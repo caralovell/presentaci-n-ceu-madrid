@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 import navilensLogo from "@/assets/navilens-logo.jpg";
 import navilensCode from "@/assets/navilens-code.png";
 import visualfyLogo from "@/assets/visualfy-logo.png";
-import visualfyDevice from "@/assets/visualfy-device.jpg";
+import visualfyDevice from "@/assets/visualfy-device.png";
 
 const NavilensSection = () => (
   <div className="mt-12 md:mt-16">
