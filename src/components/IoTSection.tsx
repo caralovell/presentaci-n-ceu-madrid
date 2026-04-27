@@ -35,9 +35,8 @@ const IoTSection = () => (
         {/* Left: text + 4 cards */}
         <ScrollReveal direction="left">
           <p className="text-base text-muted-foreground leading-relaxed mb-6">
-            Convierte tu espacio en un entorno que{" "}
-            <strong className="text-foreground">recopila, analiza y reacciona</strong> en tiempo real. Sensores,
-            dashboards e IA trabajando juntos.
+            Convierte el campus en un entorno inteligente que recopila, analiza y reacciona en tiempo real. Sensores,
+            dashboards e IA conectados para optimizar espacios, recursos y experiencia universitaria.
           </p>
 
           <div className="grid grid-cols-2 gap-3">
