@@ -13,13 +13,13 @@ const NavilensSection = () => (
       </div>
     </ScrollReveal>
 
-    <div className="grid lg:grid-cols-2 gap-5 lg:gap-6 max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto">
       {/* NAVILENS Card */}
       <ScrollReveal direction="left">
         <motion.div
           whileHover={{ y: -6 }}
           transition={{ type: "spring", stiffness: 200, damping: 18 }}
-          className="group relative h-full rounded-3xl bg-card border border-border hover:border-accent/50 p-6 overflow-hidden transition-colors duration-500"
+          className="group relative rounded-3xl bg-card border border-border hover:border-accent/50 p-6 overflow-hidden transition-colors duration-500"
         >
           <motion.div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-accent/10 blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 
@@ -40,47 +40,6 @@ const NavilensSection = () => (
                 src={navilensCode}
                 alt="Código Navilens"
                 className="relative w-full max-w-[110px] rounded-2xl shadow-xl object-contain bg-background p-2"
-                whileHover={{ scale: 1.05, rotate: 2 }}
-                animate={{ y: [0, -6, 0] }}
-                transition={{
-                  y: { duration: 4, repeat: Infinity, ease: "easeInOut" },
-                  scale: { duration: 0.3 },
-                  rotate: { duration: 0.3 },
-                }}
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </motion.div>
-      </ScrollReveal>
-
-      {/* VISUALFY Card */}
-      <ScrollReveal direction="right" delay={0.1}>
-        <motion.div
-          whileHover={{ y: -6 }}
-          transition={{ type: "spring", stiffness: 200, damping: 18 }}
-          className="group relative h-full rounded-3xl bg-card border border-border hover:border-accent/50 p-6 overflow-hidden transition-colors duration-500"
-        >
-          <motion.div className="absolute -bottom-20 -left-20 w-64 h-64 rounded-full bg-accent/10 blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-
-          <div className="relative grid grid-cols-[1fr_auto] gap-4 items-center">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <img src={visualfyLogo} alt="Visualfy" className="h-12 object-contain" />
-                <span className="text-xs uppercase tracking-[0.15em] text-accent font-bold">Discapacidad auditiva</span>
-              </div>
-
-              <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-                Creamos tecnología innovadora para personas con pérdida auditiva, y para empresas e instituciones
-                comprometidas con la accesibilidad.
-              </p>
-            </div>
-
-            <div className="relative flex justify-center shrink-0">
-              <motion.img
-                src={visualfyDevice}
-                alt="Dispositivo Visualfy"
-                className="relative w-full max-w-[150px] object-contain"
                 whileHover={{ scale: 1.05, rotate: 2 }}
                 animate={{ y: [0, -6, 0] }}
                 transition={{
