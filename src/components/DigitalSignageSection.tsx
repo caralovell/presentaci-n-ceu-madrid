@@ -7,6 +7,7 @@ import totem1 from "@/assets/totem-1.jpg";
 import totem2 from "@/assets/totem-2.jpg";
 import totem3 from "@/assets/totem-3.jpg";
 import totem4 from "@/assets/totem-4.jpg";
+import epaperDisplay from "@/assets/epaper-display.png";
 
 const totemSecondary = [
   { src: totem1, alt: "Tótem digital con anuncio en centro comercial" },
@@ -96,6 +97,34 @@ const DigitalSignageSection = () => (
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </motion.div>
             ))}
+          </div>
+        </div>
+      </ScrollReveal>
+
+      {/* Sub-section: E-Paper (compact) */}
+      <ScrollReveal>
+        <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_auto] gap-6 items-center mb-8">
+          <div>
+            <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">E-Paper</h3>
+            <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+              Pantallas de papel electrónico a todo color combina el diseño más delgado y vibrante del mercado con una eficiencia operativa sin precedentes.
+            </p>
+          </div>
+          <div className="flex gap-4 items-center">
+            <motion.div
+              whileHover={{ y: -4 }}
+              transition={{ type: "spring", stiffness: 200, damping: 18 }}
+              className="w-full max-w-[260px]"
+            >
+              <img
+                src={epaperDisplay}
+                alt="Pantalla de papel electrónico E-Paper"
+                className="w-full h-auto object-contain"
+                loading="lazy"
+                width={1024}
+                height={768}
+              />
+            </motion.div>
           </div>
         </div>
       </ScrollReveal>
