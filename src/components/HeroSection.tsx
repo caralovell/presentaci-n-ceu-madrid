@@ -34,7 +34,7 @@ const HeroSection = () => (
         <img
           src={ceuLogo}
           alt="CEU Universidad San Pablo"
-          className="h-12 md:h-14 w-auto object-contain mx-auto"
+          className="h-24 md:h-28 w-auto object-contain mx-auto"
         />
       </motion.div>
 
