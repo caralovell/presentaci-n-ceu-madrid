@@ -108,8 +108,8 @@ const DigitalSignageSection = () => (
           <div>
             <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">E-Paper</h3>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Pantallas de papel electrónico a todo color combina el diseño más delgado y vibrante del mercado con una
-              eficiencia operativa sin precedentes.
+              Pantallas de papel electrónico a todo color para universidades: ideales para señalética de aulas, reservas
+              de salas, horarios, calendarios académicos y comunicación interna, con bajo consumo y máxima visibilidad.
             </p>
             <div className="flex flex-wrap gap-2.5 mt-4">
               {epaperBubbles.map((label, i) => (
@@ -152,8 +152,9 @@ const DigitalSignageSection = () => (
           <div>
             <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">Gestión de Contenido</h3>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Gestionar y mostrar contenidos digitales en pantallas ubicadas en espacios físicos como tiendas, oficinas,
-              aeropuertos o centros comerciales
+              Gestiona y actualiza de forma centralizada la información digital del campus: avisos, eventos, horarios,
+              mapas, turnos, comunicación institucional y contenidos para pantallas en facultades, bibliotecas, accesos
+              y zonas comunes.
             </p>
           </div>
           <div className="flex gap-4 items-center">
