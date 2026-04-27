@@ -5,9 +5,9 @@ import aroma from "@/assets/immersive-aroma.jpg";
 import hologram from "@/assets/immersive-hologram.jpg";
 
 const items = [
-  { title: "Realidad Virtual", img: vr },
   { title: "Hologramas", img: hologram },
   { title: "Mkt Sensorial", img: aroma },
+  { title: "Realidad Virtual", img: vr },
   { title: "Robótica", img: robotics },
 ];
 
