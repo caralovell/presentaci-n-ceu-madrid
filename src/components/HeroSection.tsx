@@ -59,11 +59,11 @@ const HeroSection = () => (
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Nombre de cliente:</span>{" "}
           <span className="text-foreground/80">CEU Universidad San Pablo</span>
-          <span className="mx-3 opacity-30">|</span>
-          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">28/04/2026</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Localización:</span> <span className="text-foreground/80">Madrid</span>
+          <span className="mx-3 opacity-30">|</span>
+          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">28/04/2026</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">Jorge Moliner</span>
