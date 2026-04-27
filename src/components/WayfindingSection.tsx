@@ -21,9 +21,8 @@ const WayfindingSection = () => (
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Digital Wayfinding</h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Navegación interior interactiva que guía a usuarios y visitantes por cualquier espacio con
-            <strong className="text-foreground"> rutas en tiempo real</strong>, zonas codificadas y orientación paso a
-            paso.
+            Navegación inteligente en interiores que guía a estudiantes y visitantes por el campus con rutas en tiempo
+            real, localización de aulas, servicios y orientación paso a paso entre edificios y espacios universitarios.
           </p>
         </div>
       </ScrollReveal>
@@ -91,7 +90,7 @@ const WayfindingSection = () => (
                   <ArrowRight size={14} strokeWidth={2} />
                 </span>
               </button>
-          </a>
+            </a>
           </div>
         </div>
       </ScrollReveal>
