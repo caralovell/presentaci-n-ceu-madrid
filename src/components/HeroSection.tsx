@@ -28,7 +28,7 @@ const HeroSection = () => (
     </div>
 
     {/* Content — proposal cover */}
-    <div className="relative z-10 flex flex-col items-center gap-8 max-w-3xl w-full">
+    <div className="relative z-10 flex flex-col items-center gap-5 md:gap-6 max-w-3xl w-full py-8">
       {/* 1. Client logo */}
       <motion.div {...fadeUp(0.1)}>
         <img
@@ -76,7 +76,7 @@ const HeroSection = () => (
 
       {/* 5. Scroll indicator */}
       <motion.div
-        className="mt-10 flex justify-center"
+        className="mt-4 flex justify-center"
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.7, duration: 0.6 }}
