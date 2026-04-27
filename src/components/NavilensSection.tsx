@@ -31,7 +31,9 @@ const NavilensSection = () => (
               </div>
 
               <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-                La nueva tecnología disruptiva de señalética para personas con discapacidad visual.
+                Señalética inteligente que permite a personas con discapacidad visual orientarse de forma autónoma en el
+                campus, accediendo a información de aulas, servicios y rutas mediante códigos detectables a distancia
+                con el móvil.
               </p>
             </div>
 
