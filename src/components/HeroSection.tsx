@@ -57,20 +57,18 @@ const HeroSection = () => (
       {/* 4. Proposal info */}
       <motion.div className="flex flex-col items-center gap-1.5 mt-2" {...fadeUp(0.6)}>
         <p className="text-sm text-muted-foreground">
-          <span className="opacity-60">Nombre de cliente:</span> <span className="text-foreground/80">[Cliente]</span>
+          <span className="opacity-60">Nombre de cliente:</span>{" "}
+          <span className="text-foreground/80">CEU Universidad San Pablo</span>
           <span className="mx-3 opacity-30">|</span>
-          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">[DD/MM/AAAA]</span>
+          <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">28/04/2026</span>
         </p>
         <p className="text-sm text-muted-foreground">
-          <span className="opacity-60">Persona de contacto:</span>{" "}
-          <span className="text-foreground/80">[Nombre y apellidos]</span>
+          <span className="opacity-60">Localización:</span> <span className="text-foreground/80">Madrid</span>
         </p>
         <p className="text-sm text-muted-foreground">
-          <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">David Ochoa Tapia</span>
+          <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">Jorge Moliner</span>
         </p>
-        <p className="text-xs text-muted-foreground/60 italic">
-          Responsable del Departamento de Tecnología e Innovación
-        </p>
+        <p className="text-xs text-muted-foreground/60 italic">Director del Departamento Comercial y Marketing</p>
       </motion.div>
 
       {/* 5. Scroll indicator */}
