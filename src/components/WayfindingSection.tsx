@@ -49,23 +49,41 @@ const WayfindingSection = () => (
 
       {/* Images + button */}
       <ScrollReveal delay={0.15}>
-        <div className="grid grid-cols-[1fr_auto_1fr] gap-4 lg:gap-6 items-center max-w-5xl mx-auto">
-          {/* Left image */}
-          <motion.div
-            className="flex justify-center"
-            animate={{ y: [0, -8, 0] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-          >
-            <img
-              src={wayfindingImg}
-              alt="Mapa interactivo de navegación interior"
-              className="w-full max-w-[340px] h-auto object-contain drop-shadow-lg"
-              loading="lazy"
-            />
-          </motion.div>
+        <div className="grid md:grid-cols-[1fr_auto] gap-8 md:gap-10 items-center max-w-5xl mx-auto">
+          {/* Left: two images side by side */}
+          <div className="grid grid-cols-2 gap-4 lg:gap-6">
+            <motion.div
+              className="flex justify-center"
+              animate={{ y: [0, -8, 0] }}
+              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <img
+                src={wayfindingImg}
+                alt="Mapa interactivo de navegación interior"
+                className="w-full max-w-[280px] h-auto object-contain drop-shadow-lg"
+                loading="lazy"
+              />
+            </motion.div>
 
-          {/* Center button */}
-          <div className="flex justify-center">
+            <motion.div
+              className="flex justify-center"
+              animate={{ y: [0, -8, 0] }}
+              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+            >
+              <img
+                src={wayfindingImg2}
+                alt="Navegación digital en espacio interior"
+                className="w-full max-w-[280px] h-auto object-contain drop-shadow-lg"
+                loading="lazy"
+              />
+            </motion.div>
+          </div>
+
+          {/* Right: explanatory text + button */}
+          <div className="flex flex-col items-center md:items-start gap-3 max-w-xs text-center md:text-left">
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Explora una demo interactiva del mapa de navegación digital.
+            </p>
             <a href="https://digital.logopost.es/landing5/mapa.html" target="_blank" rel="noopener noreferrer">
               <button className="group relative bg-gradient-to-r from-accent to-accent/70 text-accent-foreground px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--accent)/0.3)] hover:scale-[1.03] flex items-center overflow-hidden">
                 <span className="mr-7 transition-opacity duration-500 group-hover:opacity-0">Ver mapa</span>
@@ -73,22 +91,8 @@ const WayfindingSection = () => (
                   <ArrowRight size={14} strokeWidth={2} />
                 </span>
               </button>
-            </a>
+          </a>
           </div>
-
-          {/* Right image */}
-          <motion.div
-            className="flex justify-center"
-            animate={{ y: [0, -8, 0] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          >
-            <img
-              src={wayfindingImg2}
-              alt="Navegación digital en espacio interior"
-              className="w-full max-w-[340px] h-auto object-contain drop-shadow-lg"
-              loading="lazy"
-            />
-          </motion.div>
         </div>
       </ScrollReveal>
     </div>
