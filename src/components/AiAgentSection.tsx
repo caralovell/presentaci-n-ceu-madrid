@@ -9,17 +9,17 @@ const blocks = [
   {
     title: "Agente IA",
     img: aiAgent,
-    desc: "Asistente conversacional que automatiza procesos, atiende consultas y guía a usuarios y personal en tiempo real.",
+    desc: "Asistente virtual para el campus que automatiza procesos, resuelve dudas de estudiantes y personal, y facilita el acceso a información académica en tiempo real.",
   },
   {
     title: "Avatar IA",
     img: aiAvatar,
-    desc: "Avatar virtual humano y empático que interactúa por voz y gesto en pantallas y tótems de forma accesible.",
+    desc: "Avatar interactivo que guía a estudiantes y visitantes mediante voz y gestos en pantallas y tótems, ofreciendo una atención más cercana y accesible dentro del campus.",
   },
   {
     title: "IA Adaptable",
     img: aiAdaptive,
-    desc: "Asistente personalizable que aprende del entorno y adapta tono, respuestas y capacidades a cada caso de uso.",
+    desc: "Asistente inteligente que aprende del entorno universitario y adapta sus respuestas a estudiantes, profesorado y visitantes según sus necesidades.",
   },
 ];
 
