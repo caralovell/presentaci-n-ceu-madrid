@@ -35,8 +35,8 @@ const DigitalSignageSection = () => (
       <ScrollReveal delay={0.1}>
         <div className="max-w-4xl mx-auto text-center mb-10">
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Soluciones personalizadas que consiguen acercar tu marca a los usuarios de forma fácil y sencilla, creando
-            una experiencia única.
+            Soluciones digitales orientadas a la gestión eficiente del campus, mejorando la comunicación interna y
+            ofreciendo información relevante en tiempo real a toda la comunidad universitaria.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2.5 mt-6">
@@ -108,7 +108,8 @@ const DigitalSignageSection = () => (
           <div>
             <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">E-Paper</h3>
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Pantallas de papel electrónico a todo color combina el diseño más delgado y vibrante del mercado con una eficiencia operativa sin precedentes.
+              Pantallas de papel electrónico a todo color combina el diseño más delgado y vibrante del mercado con una
+              eficiencia operativa sin precedentes.
             </p>
             <div className="flex flex-wrap gap-2.5 mt-4">
               {epaperBubbles.map((label, i) => (
