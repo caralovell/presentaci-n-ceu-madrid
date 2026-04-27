@@ -32,8 +32,8 @@ const SmartSignageSection = () => (
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Smart Signage</h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Convierte la señalización tradicional en un punto de contacto inteligente. Un solo gesto del usuario,
-            infinitas posibilidades.
+            Convierte la señalización del campus en un punto de contacto inteligente para estudiantes, profesorado y
+            visitantes. Con un solo gesto, accede a información académica, servicios y contenidos en tiempo real.
           </p>
         </div>
       </ScrollReveal>
@@ -61,15 +61,15 @@ const SmartSignageSection = () => (
                 </div>
 
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Transforma tu negocio en un ecosistema inteligente impulsado por IA conversacional, datos en tiempo
-                  real y conectividad sin interrupciones.
+                  Facilita el acceso inmediato a recursos universitarios: horarios, aulas, eventos, bibliografía o
+                  trámites administrativos, sin necesidad de apps.
                 </p>
 
                 <ul className="space-y-2.5">
                   {[
-                    "Acceso sin instalación de apps",
-                    "Contenido actualizable en tiempo real",
-                    "Compatible con cualquier smartphone",
+                    "Acceso rápido a información académica y servicios",
+                    "Contenido actualizado en tiempo real",
+                    "Compatible con cualquier dispositivo móvil",
                   ].map((t, i) => (
                     <motion.li
                       key={t}
@@ -128,8 +128,8 @@ const SmartSignageSection = () => (
               </div>
 
               <p className="text-sm text-muted-foreground leading-relaxed mb-5">
-                La solución integral que fusiona lo físico y digital para ofrecer experiencias phygital más inteligentes
-                y conectadas
+                Integra lo físico y lo digital en el campus con experiencias más ágiles y conectadas: desde accesos a
+                edificios hasta interacción con contenidos educativos o servicios universitarios.
               </p>
 
               {/* NFC image */}
