@@ -16,7 +16,8 @@ const totemSecondary = [
   { src: totem4, alt: "Tótem digital con anuncio en oficina corporativa" },
 ];
 
-const bubbles = ["Tótems interactivos", "Kioskos táctiles", "Gestión de colas", "Soluciones LED", "Reserva de salas", "Señalética inteligente"];
+const bubbles = ["Tótems interactivos", "Kioskos táctiles", "Gestión de colas", "Soluciones LED"];
+const epaperBubbles = ["Reserva de salas", "Señalética inteligente"];
 
 const DigitalSignageSection = () => (
   <section id="digital-signage" className="py-12 md:py-16 bg-background">
@@ -109,6 +110,21 @@ const DigitalSignageSection = () => (
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
               Pantallas de papel electrónico a todo color combina el diseño más delgado y vibrante del mercado con una eficiencia operativa sin precedentes.
             </p>
+            <div className="flex flex-wrap gap-2.5 mt-4">
+              {epaperBubbles.map((label, i) => (
+                <motion.span
+                  key={label}
+                  initial={{ opacity: 0, scale: 0.6, y: 10 }}
+                  whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ delay: i * 0.06, type: "spring", stiffness: 200, damping: 14 }}
+                  whileHover={{ scale: 1.08, y: -3 }}
+                  className="inline-flex items-center px-4 py-2 rounded-full bg-accent/10 border border-accent/30 text-sm font-medium text-foreground hover:bg-accent/20 hover:border-accent/60 transition-colors cursor-default shadow-sm"
+                >
+                  {label}
+                </motion.span>
+              ))}
+            </div>
           </div>
           <div className="flex gap-4 items-center">
             <motion.div
